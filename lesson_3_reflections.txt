@@ -9,3 +9,12 @@ Describe the differences between forks, clones, and branches. When would you use
 	We only can use forks for github, but not in our local git repository.
 	We can use branches to devide a branch, but in the same repository.
 	We use clone to clone a repository(local repository or remote repository). 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	You work with a update code, and you avoid conflicts.
+
+	Commands:
+
+	git pull
+	git fetch
+	git merge master origin/master
