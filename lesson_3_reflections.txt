@@ -18,8 +18,16 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	I think, with SVN, it would be harder make forks, or work without internet connection.
 	It would be easier nothing.
 
-	Commands:
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	I would want to make changes in a separate branch when I am collaborating with other people and I don't want to introduce an error in master branch.
+
+
+
+Commands:
 
 	git pull
 	git fetch
 	git merge master origin/master
+
+	git pull origin master {git fetch
+							git merge master origin/master}
